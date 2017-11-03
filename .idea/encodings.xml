@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK">
+    <file url="file://$PROJECT_DIR$/uaes-batch/src/main/scala/com/uaes/spark/analysis/KPIhandle/AirConFuel.scala" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/uaes-batch/src/main/scala/com/uaes/spark/analysis/KPIhandle/AverageDrivingSpeed.scala" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/uaes-batch/src/main/scala/com/uaes/spark/analysis/KPIhandle/CumulativeFuelConsumption.scala" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

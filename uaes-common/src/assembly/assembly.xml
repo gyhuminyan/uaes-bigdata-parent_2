@@ -1,0 +1,45 @@
+<assembly>
+    <id>bin</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+	
+	<includeBaseDirectory>true</includeBaseDirectory> 
+	
+    <fileSets>
+        <fileSet>
+            <directory>src/shell</directory>
+            <outputDirectory>bin</outputDirectory>
+        </fileSet>
+        
+         <fileSet>
+            <directory>${project.build.directory}/${project.artifactId}/bin/</directory>
+            <outputDirectory>bin</outputDirectory>
+        </fileSet>
+        
+       <fileSet>
+        	<directory>${project.build.directory}/</directory>
+             <includes>
+            	<include>${project.artifactId}-${project.version}.jar</include>
+            </includes>
+            <outputDirectory>/</outputDirectory>
+        </fileSet>  
+
+        <fileSet>
+           <directory>${project.build.directory}/${project.artifactId}/lib/</directory>
+           <!--  <excludes>
+            	<exclude>${project.artifactId}-${project.version}.jar</exclude>
+            </excludes>  -->   
+            <outputDirectory>lib</outputDirectory>
+            <fileMode>0644</fileMode>
+            <directoryMode>0755</directoryMode>
+        </fileSet>
+
+
+        <fileSet>
+            <directory>${project.build.directory}/${project.artifactId}/conf</directory>
+            <outputDirectory>conf</outputDirectory>
+        </fileSet>
+    </fileSets>
+    
+</assembly>

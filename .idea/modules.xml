@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/uaes-batch/uaes-batch.iml" filepath="$PROJECT_DIR$/uaes-batch/uaes-batch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/uaes-bigdata-parent.iml" filepath="$PROJECT_DIR$/.idea/uaes-bigdata-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaes-common/uaes-common.iml" filepath="$PROJECT_DIR$/uaes-common/uaes-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaes-etl/uaes-etl.iml" filepath="$PROJECT_DIR$/uaes-etl/uaes-etl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/uaes-streaming/uaes-streaming.iml" filepath="$PROJECT_DIR$/uaes-streaming/uaes-streaming.iml" />
+    </modules>
+  </component>
+</project>
